@@ -67,3 +67,12 @@ body{
     font-style:  italic;
     color: #1F2937;
 }
+.sign-up-banner{
+    background-color: #3882f6;
+}
+
+.footer{
+    background-color:#1F2937;
+    color:#E5E7EB;
+    text-align: center;
+}
