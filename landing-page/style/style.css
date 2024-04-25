@@ -2,9 +2,20 @@ body{
     background-color: #1F2937;
 }
 
+button{
+    background-color: #3882f6;
+    color:#F9FAF8;
+    padding:5px 30px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 6px;
+    width: fit-content;
+
+}
+
 .header{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .left-header{
     color: #F9FAF8;
@@ -19,14 +30,16 @@ body{
 }
 .hero{
     display:flex;
-
+    justify-content: space-evenly;
+    margin: 48px -10px;
 }
 .hero img{
     height:auto;
-    width:50%;
+    width: 400px;
 }
 .hero-text{
     display: flex;
+    width: 300px;
     flex-direction: column;
 
 }
@@ -36,6 +49,7 @@ body{
     color:#F9FAF8;
 }
 .hero-subtext{
+    width: 400px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -64,7 +78,8 @@ body{
 .quote{
     background-color: #E5E7EB;
     font-size: 36px;
-    font-style:  italic;
+    font-style: italic;
+    font-weight: light;
     color: #1F2937;
 }
 .sign-up-banner{
