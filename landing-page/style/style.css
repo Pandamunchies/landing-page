@@ -70,6 +70,7 @@ button{
 }
 .information-images{
     display:flex;
+    padding:0 96px;
     gap: 20px;
 }
 .information-cards{
@@ -88,8 +89,13 @@ button{
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     color: #1F2937;
+    padding: 96px;
+}
+.author{
+    display:flex;
+    justify-content:flex-end;
 }
 .sign-up-banner{
     background-color: #3882f6;
