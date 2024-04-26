@@ -1,5 +1,6 @@
 body{
     background-color: #1F2937;
+    max-width: 100%;
 }
 
 button{
@@ -31,15 +32,15 @@ button{
 .hero{
     display:flex;
     justify-content: space-evenly;
-    margin: 48px -10px;
+    margin: 48px;
 }
 .hero img{
     height:auto;
-    width: 400px;
+    max-width: 35%;
 }
 .hero-text{
     display: flex;
-    width: 300px;
+    max-width: 300px;
     flex-direction: column;
 
 }
@@ -65,15 +66,23 @@ button{
     font-weight: 900;
     color: #1F2937;
     text-align: center;
+    margin: 48px 0;
 }
 .information-images{
     display:flex;
-    justify-content: space-around;
+    gap: 20px;
+}
+.information-cards{
+    display: flex;
+    flex-direction: column;  
 }
 .information-images img{
+    display:flex;
     height: auto;
-    width: 15%;
+    width: 100%;
+    border-radius: 6px;
 }
+
 
 .quote{
     background-color: #E5E7EB;
